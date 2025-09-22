@@ -1,0 +1,5419 @@
+{
+  "csv": "data/giocatori.csv",
+  "budgetTotale": 250,
+  "budgetLeft": 240,
+  "ruoliTarget": {
+    "p": 3,
+    "d": 8,
+    "c": 8,
+    "a": 6
+  },
+  "picked": [
+    {
+      "nome": "Meret",
+      "r": "p",
+      "price": 10
+    }
+  ],
+  "gone": [
+    {
+      "nome": "Svilar",
+      "price": 17,
+      "owner": "linda"
+    }
+  ],
+  "topk": 6,
+  "csvData": [
+    {
+      "nome": "Thuram",
+      "sq": "Inter",
+      "under": "28",
+      "r": "a",
+      "fvmp": 89,
+      "priority": null,
+      "myScore": 0,
+      "score": 3.855516623602505
+    },
+    {
+      "nome": "Martinez L.",
+      "sq": "Inter",
+      "under": "28",
+      "r": "a",
+      "fvmp": 88,
+      "priority": null,
+      "myScore": 0,
+      "score": 3.8034923809415617
+    },
+    {
+      "nome": "Kean",
+      "sq": "Fiorentina",
+      "under": "25",
+      "r": "a",
+      "fvmp": 87,
+      "priority": 2,
+      "myScore": 0,
+      "score": 3.7114681382806185
+    },
+    {
+      "nome": "David",
+      "sq": "Juventus",
+      "under": "25",
+      "r": "a",
+      "fvmp": 66,
+      "priority": 1,
+      "myScore": 0,
+      "score": 2.63895904240081
+    },
+    {
+      "nome": "Yildiz",
+      "sq": "Juventus",
+      "under": "20",
+      "r": "a",
+      "fvmp": 57,
+      "priority": 1,
+      "myScore": 0,
+      "score": 2.1707408584523207
+    },
+    {
+      "nome": "Pulisic",
+      "sq": "Milan",
+      "under": "27",
+      "r": "c",
+      "fvmp": 54,
+      "priority": 2,
+      "myScore": 0,
+      "score": 4.929015873065992
+    },
+    {
+      "nome": "Orsolini",
+      "sq": "Bologna",
+      "under": "28",
+      "r": "c",
+      "fvmp": 54,
+      "priority": 1,
+      "myScore": 0,
+      "score": 4.949015873065992
+    },
+    {
+      "nome": "McTominay",
+      "sq": "Napoli",
+      "under": "29",
+      "r": "c",
+      "fvmp": 52,
+      "priority": 1,
+      "myScore": 0,
+      "score": 4.738741874968854
+    },
+    {
+      "nome": "Zaccagni",
+      "sq": "Lazio",
+      "under": "30",
+      "r": "c",
+      "fvmp": 51,
+      "priority": 2,
+      "myScore": 0,
+      "score": 4.6136048759202835
+    },
+    {
+      "nome": "Hojlund",
+      "sq": "Napoli",
+      "under": "22",
+      "r": "a",
+      "fvmp": 50,
+      "priority": 2,
+      "myScore": 0,
+      "score": 1.7865711598257177
+    },
+    {
+      "nome": "Leao",
+      "sq": "Milan",
+      "under": "26",
+      "r": "a",
+      "fvmp": 50,
+      "priority": 3,
+      "myScore": 0,
+      "score": 1.7665711598257177
+    },
+    {
+      "nome": "Castellanos",
+      "sq": "Lazio",
+      "under": "27",
+      "r": "a",
+      "fvmp": 48,
+      "priority": 3,
+      "myScore": 0,
+      "score": 1.6625226745038313
+    },
+    {
+      "nome": "Calhanoglu",
+      "sq": "Inter",
+      "under": "31",
+      "r": "c",
+      "fvmp": 45,
+      "priority": 1,
+      "myScore": 0,
+      "score": 4.0027828816288675
+    },
+    {
+      "nome": "Ferguson E.",
+      "sq": "Roma",
+      "under": "21",
+      "r": "a",
+      "fvmp": 40,
+      "priority": null,
+      "myScore": 0,
+      "score": 1.3063287332162852
+    },
+    {
+      "nome": "Paz N.",
+      "sq": "Como",
+      "under": "21",
+      "r": "c",
+      "fvmp": 39,
+      "priority": 3,
+      "myScore": 0,
+      "score": 3.331960887337451
+    },
+    {
+      "nome": "Soulè",
+      "sq": "Roma",
+      "under": "22",
+      "r": "a",
+      "fvmp": 38,
+      "priority": 1,
+      "myScore": 0,
+      "score": 1.1822802478943986
+    },
+    {
+      "nome": "De Bruyne",
+      "sq": "Napoli",
+      "under": "34",
+      "r": "c",
+      "fvmp": 38,
+      "priority": 1,
+      "myScore": 0,
+      "score": 3.266823888288882
+    },
+    {
+      "nome": "Krstovic",
+      "sq": "Atalanta",
+      "under": "25",
+      "r": "a",
+      "fvmp": 37,
+      "priority": null,
+      "myScore": 0,
+      "score": 1.1502560052334554
+    },
+    {
+      "nome": "De Ketelaere",
+      "sq": "Atalanta",
+      "under": "24",
+      "r": "a",
+      "fvmp": 37,
+      "priority": 2,
+      "myScore": 0,
+      "score": 1.1102560052334554
+    },
+    {
+      "nome": "Gudmundsson A.",
+      "sq": "Fiorentina",
+      "under": "28",
+      "r": "c",
+      "fvmp": 37,
+      "priority": null,
+      "myScore": 0,
+      "score": 3.181686889240313
+    },
+    {
+      "nome": "Berardi",
+      "sq": "Sassuolo",
+      "under": "31",
+      "r": "a",
+      "fvmp": 36,
+      "priority": 1,
+      "myScore": 0,
+      "score": 1.0782317625725122
+    },
+    {
+      "nome": "Rabiot",
+      "sq": "Milan",
+      "under": "30",
+      "r": "c",
+      "fvmp": 36,
+      "priority": 1,
+      "myScore": 0,
+      "score": 3.0565498901917434
+    },
+    {
+      "nome": "Dybala",
+      "sq": "Roma",
+      "under": "32",
+      "r": "a",
+      "fvmp": 35,
+      "priority": 1,
+      "myScore": 0,
+      "score": 1.026207519911569
+    },
+    {
+      "nome": "Openda",
+      "sq": "Juventus",
+      "under": "25",
+      "r": "a",
+      "fvmp": 34,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.9741832772506256
+    },
+    {
+      "nome": "Nkunku",
+      "sq": "Milan",
+      "under": "28",
+      "r": "a",
+      "fvmp": 33,
+      "priority": 3,
+      "myScore": 0,
+      "score": 0.8821590345896824
+    },
+    {
+      "nome": "Castro S.",
+      "sq": "Bologna",
+      "under": "21",
+      "r": "a",
+      "fvmp": 31,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.8381105492677958
+    },
+    {
+      "nome": "Vlahovic",
+      "sq": "Juventus",
+      "under": "25",
+      "r": "a",
+      "fvmp": 30,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.7660863066068526
+    },
+    {
+      "nome": "Lukaku",
+      "sq": "Napoli",
+      "under": "32",
+      "r": "a",
+      "fvmp": 30,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.7860863066068526
+    },
+    {
+      "nome": "Scamacca",
+      "sq": "Atalanta",
+      "under": "26",
+      "r": "a",
+      "fvmp": 28,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.6620378212849661
+    },
+    {
+      "nome": "Lookman",
+      "sq": "Atalanta",
+      "under": "28",
+      "r": "a",
+      "fvmp": 27,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.6100135786240228
+    },
+    {
+      "nome": "Dumfries",
+      "sq": "Inter",
+      "under": "29",
+      "r": "d",
+      "fvmp": 26,
+      "priority": null,
+      "myScore": 0,
+      "score": 5.799575963948044
+    },
+    {
+      "nome": "Gimenez",
+      "sq": "Milan",
+      "under": "24",
+      "r": "a",
+      "fvmp": 25,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.5259650933021364
+    },
+    {
+      "nome": "Immobile",
+      "sq": "Bologna",
+      "under": "35",
+      "r": "a",
+      "fvmp": 25,
+      "priority": 3,
+      "myScore": 0,
+      "score": 0.46596509330213637
+    },
+    {
+      "nome": "Dimarco",
+      "sq": "Inter",
+      "under": "28",
+      "r": "d",
+      "fvmp": 23,
+      "priority": 1,
+      "myScore": 0,
+      "score": 4.991878454418155
+    },
+    {
+      "nome": "Meret",
+      "sq": "Napoli",
+      "under": "28",
+      "r": "p",
+      "fvmp": 23,
+      "priority": 2,
+      "myScore": 0,
+      "score": 3.095993731268917
+    },
+    {
+      "nome": "Zapata D.",
+      "sq": "Torino",
+      "under": "34",
+      "r": "a",
+      "fvmp": 22,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.3698923653193065
+    },
+    {
+      "nome": "Svilar",
+      "sq": "Roma",
+      "under": "26",
+      "r": "p",
+      "fvmp": 21,
+      "priority": 1,
+      "myScore": 0,
+      "score": 2.7844820324817507
+    },
+    {
+      "nome": "Di Gregorio",
+      "sq": "Juventus",
+      "under": "28",
+      "r": "p",
+      "fvmp": 21,
+      "priority": 3,
+      "myScore": 0,
+      "score": 2.7444820324817507
+    },
+    {
+      "nome": "Pinamonti",
+      "sq": "Sassuolo",
+      "under": "26",
+      "r": "a",
+      "fvmp": 20,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.26584387999742004
+    },
+    {
+      "nome": "Dia",
+      "sq": "Lazio",
+      "under": "29",
+      "r": "a",
+      "fvmp": 20,
+      "priority": 3,
+      "myScore": 0,
+      "score": 0.20584387999742004
+    },
+    {
+      "nome": "Maignan",
+      "sq": "Milan",
+      "under": "30",
+      "r": "p",
+      "fvmp": 19,
+      "priority": null,
+      "myScore": 0,
+      "score": 2.472970333694585
+    },
+    {
+      "nome": "Sommer",
+      "sq": "Inter",
+      "under": "37",
+      "r": "p",
+      "fvmp": 19,
+      "priority": null,
+      "myScore": 0,
+      "score": 2.472970333694585
+    },
+    {
+      "nome": "Bastoni",
+      "sq": "Inter",
+      "under": "26",
+      "r": "d",
+      "fvmp": 19,
+      "priority": null,
+      "myScore": 0,
+      "score": 3.9616151083783024
+    },
+    {
+      "nome": "Piccoli",
+      "sq": "Fiorentina",
+      "under": "24",
+      "r": "a",
+      "fvmp": 18,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.1617953946755335
+    },
+    {
+      "nome": "Politano",
+      "sq": "Napoli",
+      "under": "32",
+      "r": "c",
+      "fvmp": 18,
+      "priority": 1,
+      "myScore": 0,
+      "score": 1.1640839073174944
+    },
+    {
+      "nome": "Gosens",
+      "sq": "Fiorentina",
+      "under": "31",
+      "r": "d",
+      "fvmp": 18,
+      "priority": 1,
+      "myScore": 0,
+      "score": 3.6790492718683394
+    },
+    {
+      "nome": "Morata",
+      "sq": "Como",
+      "under": "33",
+      "r": "a",
+      "fvmp": 18,
+      "priority": 3,
+      "myScore": 0,
+      "score": 0.1017953946755335
+    },
+    {
+      "nome": "Conceicao",
+      "sq": "Juventus",
+      "under": "23",
+      "r": "c",
+      "fvmp": 18,
+      "priority": 2,
+      "myScore": 0,
+      "score": 1.1440839073174944
+    },
+    {
+      "nome": "Zhegrova",
+      "sq": "Juventus",
+      "under": "26",
+      "r": "c",
+      "fvmp": 17,
+      "priority": null,
+      "myScore": 0,
+      "score": 1.0789469082689251
+    },
+    {
+      "nome": "Zambo Anguissa",
+      "sq": "Napoli",
+      "under": "30",
+      "r": "c",
+      "fvmp": 17,
+      "priority": 2,
+      "myScore": 0,
+      "score": 1.038946908268925
+    },
+    {
+      "nome": "Bremer",
+      "sq": "Juventus",
+      "under": "28",
+      "r": "d",
+      "fvmp": 17,
+      "priority": 1,
+      "myScore": 0,
+      "score": 3.4164834353583764
+    },
+    {
+      "nome": "Pellegrino M.",
+      "sq": "Parma",
+      "under": "24",
+      "r": "a",
+      "fvmp": 17,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.10977115201459024
+    },
+    {
+      "nome": "Thuram K.",
+      "sq": "Juventus",
+      "under": "24",
+      "r": "c",
+      "fvmp": 16,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.9538099092203558
+    },
+    {
+      "nome": "Carnesecchi",
+      "sq": "Atalanta",
+      "under": "25",
+      "r": "p",
+      "fvmp": 16,
+      "priority": 4,
+      "myScore": 0,
+      "score": 1.8957027855138358
+    },
+    {
+      "nome": "Esposito Se.",
+      "sq": "Cagliari",
+      "under": "23",
+      "r": "a",
+      "fvmp": 16,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.057746909353646986
+    },
+    {
+      "nome": "Di Lorenzo",
+      "sq": "Napoli",
+      "under": "32",
+      "r": "d",
+      "fvmp": 16,
+      "priority": 1,
+      "myScore": 0,
+      "score": 3.1539175988484134
+    },
+    {
+      "nome": "De Gea",
+      "sq": "Fiorentina",
+      "under": "35",
+      "r": "p",
+      "fvmp": 15,
+      "priority": null,
+      "myScore": 0,
+      "score": 1.809946936120253
+    },
+    {
+      "nome": "Odgaard",
+      "sq": "Bologna",
+      "under": "26",
+      "r": "c",
+      "fvmp": 14,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.7635359111232171
+    },
+    {
+      "nome": "Provedel",
+      "sq": "Lazio",
+      "under": "31",
+      "r": "p",
+      "fvmp": 13,
+      "priority": null,
+      "myScore": 0,
+      "score": 1.478435237333087
+    },
+    {
+      "nome": "Modric",
+      "sq": "Milan",
+      "under": "40",
+      "r": "c",
+      "fvmp": 13,
+      "priority": 3,
+      "myScore": 0,
+      "score": 0.5983989120746476
+    },
+    {
+      "nome": "Barella",
+      "sq": "Inter",
+      "under": "28",
+      "r": "c",
+      "fvmp": 13,
+      "priority": 2,
+      "myScore": 0,
+      "score": 0.6183989120746476
+    },
+    {
+      "nome": "Simeone",
+      "sq": "Torino",
+      "under": "30",
+      "r": "a",
+      "fvmp": 13,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.09832581862918278
+    },
+    {
+      "nome": "Bellanova",
+      "sq": "Atalanta",
+      "under": "25",
+      "r": "d",
+      "fvmp": 13,
+      "priority": 1,
+      "myScore": 0,
+      "score": 2.3662200893185243
+    },
+    {
+      "nome": "Lucca",
+      "sq": "Napoli",
+      "under": "25",
+      "r": "a",
+      "fvmp": 12,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.15035006129012604
+    },
+    {
+      "nome": "Davis K.",
+      "sq": "Udinese",
+      "under": "27",
+      "r": "a",
+      "fvmp": 12,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.15035006129012604
+    },
+    {
+      "nome": "Vardy",
+      "sq": "Cremonese",
+      "under": "38",
+      "r": "a",
+      "fvmp": 12,
+      "priority": 2,
+      "myScore": 0,
+      "score": -0.19035006129012605
+    },
+    {
+      "nome": "Locatelli",
+      "sq": "Juventus",
+      "under": "27",
+      "r": "c",
+      "fvmp": 12,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.5332619130260782
+    },
+    {
+      "nome": "Cambiaso",
+      "sq": "Juventus",
+      "under": "25",
+      "r": "d",
+      "fvmp": 12,
+      "priority": 1,
+      "myScore": 0,
+      "score": 2.1036542528085613
+    },
+    {
+      "nome": "Wesley",
+      "sq": "Roma",
+      "under": "22",
+      "r": "d",
+      "fvmp": 12,
+      "priority": 2,
+      "myScore": 0,
+      "score": 2.0836542528085613
+    },
+    {
+      "nome": "Skorupski",
+      "sq": "Bologna",
+      "under": "34",
+      "r": "p",
+      "fvmp": 12,
+      "priority": 5,
+      "myScore": 0,
+      "score": 1.212679387939504
+    },
+    {
+      "nome": "Orban G.",
+      "sq": "Verona",
+      "under": "23",
+      "r": "a",
+      "fvmp": 12,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.15035006129012604
+    },
+    {
+      "nome": "Rowe",
+      "sq": "Bologna",
+      "under": "22",
+      "r": "c",
+      "fvmp": 12,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.5532619130260782
+    },
+    {
+      "nome": "Angelino",
+      "sq": "Roma",
+      "under": "28",
+      "r": "d",
+      "fvmp": 12,
+      "priority": null,
+      "myScore": 0,
+      "score": 2.1236542528085613
+    },
+    {
+      "nome": "Solet",
+      "sq": "Udinese",
+      "under": "25",
+      "r": "d",
+      "fvmp": 11,
+      "priority": null,
+      "myScore": 0,
+      "score": 1.8610884162985981
+    },
+    {
+      "nome": "Laurientè",
+      "sq": "Sassuolo",
+      "under": "27",
+      "r": "a",
+      "fvmp": 11,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2023743039510693
+    },
+    {
+      "nome": "Zalewski",
+      "sq": "Atalanta",
+      "under": "23",
+      "r": "c",
+      "fvmp": 11,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.42812491397750885
+    },
+    {
+      "nome": "Saelemaekers",
+      "sq": "Milan",
+      "under": "26",
+      "r": "c",
+      "fvmp": 11,
+      "priority": 2,
+      "myScore": 0,
+      "score": 0.4081249139775089
+    },
+    {
+      "nome": "Tavares N.",
+      "sq": "Lazio",
+      "under": "25",
+      "r": "d",
+      "fvmp": 11,
+      "priority": null,
+      "myScore": 0,
+      "score": 1.8610884162985981
+    },
+    {
+      "nome": "Vlasic",
+      "sq": "Torino",
+      "under": "28",
+      "r": "c",
+      "fvmp": 10,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.32298791492893947
+    },
+    {
+      "nome": "Dodò",
+      "sq": "Fiorentina",
+      "under": "27",
+      "r": "d",
+      "fvmp": 10,
+      "priority": null,
+      "myScore": 0,
+      "score": 1.598522579788635
+    },
+    {
+      "nome": "Buongiorno",
+      "sq": "Napoli",
+      "under": "26",
+      "r": "d",
+      "fvmp": 10,
+      "priority": 1,
+      "myScore": 0,
+      "score": 1.578522579788635
+    },
+    {
+      "nome": "Atta",
+      "sq": "Udinese",
+      "under": "22",
+      "r": "c",
+      "fvmp": 10,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.3429879149289395
+    },
+    {
+      "nome": "Konè M.",
+      "sq": "Roma",
+      "under": "24",
+      "r": "c",
+      "fvmp": 10,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.3429879149289395
+    },
+    {
+      "nome": "Diao",
+      "sq": "Como",
+      "under": "20",
+      "r": "a",
+      "fvmp": 10,
+      "priority": 2,
+      "myScore": 0,
+      "score": -0.29439854661201253
+    },
+    {
+      "nome": "Ederson D.S.",
+      "sq": "Atalanta",
+      "under": "26",
+      "r": "c",
+      "fvmp": 10,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.3429879149289395
+    },
+    {
+      "nome": "Estupinan",
+      "sq": "Milan",
+      "under": "27",
+      "r": "d",
+      "fvmp": 10,
+      "priority": 2,
+      "myScore": 0,
+      "score": 1.558522579788635
+    },
+    {
+      "nome": "Dzeko",
+      "sq": "Fiorentina",
+      "under": "39",
+      "r": "a",
+      "fvmp": 10,
+      "priority": 3,
+      "myScore": 0,
+      "score": -0.31439854661201255
+    },
+    {
+      "nome": "Bernabè",
+      "sq": "Parma",
+      "under": "24",
+      "r": "c",
+      "fvmp": 9,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.2378509158803701
+    },
+    {
+      "nome": "Oristanio",
+      "sq": "Parma",
+      "under": "23",
+      "r": "c",
+      "fvmp": 9,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.2378509158803701
+    },
+    {
+      "nome": "Kuhn",
+      "sq": "Como",
+      "under": "25",
+      "r": "a",
+      "fvmp": 9,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.3064227892729558
+    },
+    {
+      "nome": "Bonny",
+      "sq": "Inter",
+      "under": "22",
+      "r": "a",
+      "fvmp": 9,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.3064227892729558
+    },
+    {
+      "nome": "Tramoni M.",
+      "sq": "Pisa",
+      "under": "25",
+      "r": "c",
+      "fvmp": 9,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.2378509158803701
+    },
+    {
+      "nome": "Hien",
+      "sq": "Atalanta",
+      "under": "26",
+      "r": "d",
+      "fvmp": 9,
+      "priority": null,
+      "myScore": 0,
+      "score": 1.335956743278672
+    },
+    {
+      "nome": "Israel",
+      "sq": "Torino",
+      "under": "25",
+      "r": "p",
+      "fvmp": 9,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.815411839758755
+    },
+    {
+      "nome": "Adams C.",
+      "sq": "Torino",
+      "under": "29",
+      "r": "a",
+      "fvmp": 9,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.3064227892729558
+    },
+    {
+      "nome": "Isaksen",
+      "sq": "Lazio",
+      "under": "24",
+      "r": "c",
+      "fvmp": 9,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.21785091588037012
+    },
+    {
+      "nome": "Zortea",
+      "sq": "Bologna",
+      "under": "26",
+      "r": "d",
+      "fvmp": 9,
+      "priority": null,
+      "myScore": 0,
+      "score": 1.335956743278672
+    },
+    {
+      "nome": "Pedro",
+      "sq": "Lazio",
+      "under": "38",
+      "r": "a",
+      "fvmp": 9,
+      "priority": 4,
+      "myScore": 0,
+      "score": -0.3864227892729558
+    },
+    {
+      "nome": "Sanabria",
+      "sq": "Cremonese",
+      "under": "29",
+      "r": "a",
+      "fvmp": 9,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.3064227892729558
+    },
+    {
+      "nome": "Bailey",
+      "sq": "Roma",
+      "under": "28",
+      "r": "c",
+      "fvmp": 9,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.2378509158803701
+    },
+    {
+      "nome": "Carlos Augusto",
+      "sq": "Inter",
+      "under": "26",
+      "r": "d",
+      "fvmp": 9,
+      "priority": 2,
+      "myScore": 0,
+      "score": 1.295956743278672
+    },
+    {
+      "nome": "Colombo",
+      "sq": "Genoa",
+      "under": "23",
+      "r": "a",
+      "fvmp": 8,
+      "priority": 4,
+      "myScore": 0,
+      "score": -0.4384470319338991
+    },
+    {
+      "nome": "Vandeputte",
+      "sq": "Cremonese",
+      "under": "29",
+      "r": "c",
+      "fvmp": 8,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.13271391683180073
+    },
+    {
+      "nome": "Mkhitaryan",
+      "sq": "Inter",
+      "under": "36",
+      "r": "c",
+      "fvmp": 8,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.11271391683180072
+    },
+    {
+      "nome": "Da Cunha",
+      "sq": "Como",
+      "under": "24",
+      "r": "c",
+      "fvmp": 8,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.13271391683180073
+    },
+    {
+      "nome": "Sohm",
+      "sq": "Fiorentina",
+      "under": "24",
+      "r": "c",
+      "fvmp": 8,
+      "priority": 2,
+      "myScore": 0,
+      "score": 0.09271391683180072
+    },
+    {
+      "nome": "Butez",
+      "sq": "Como",
+      "under": "30",
+      "r": "p",
+      "fvmp": 8,
+      "priority": 6,
+      "myScore": 0,
+      "score": 0.5296559903651721
+    },
+    {
+      "nome": "Stengs",
+      "sq": "Pisa",
+      "under": "27",
+      "r": "c",
+      "fvmp": 8,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.13271391683180073
+    },
+    {
+      "nome": "De Roon",
+      "sq": "Atalanta",
+      "under": "34",
+      "r": "c",
+      "fvmp": 8,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.11271391683180072
+    },
+    {
+      "nome": "Rrahmani",
+      "sq": "Napoli",
+      "under": "31",
+      "r": "d",
+      "fvmp": 8,
+      "priority": null,
+      "myScore": 0,
+      "score": 1.073390906768709
+    },
+    {
+      "nome": "Martin",
+      "sq": "Genoa",
+      "under": "28",
+      "r": "d",
+      "fvmp": 8,
+      "priority": null,
+      "myScore": 0,
+      "score": 1.073390906768709
+    },
+    {
+      "nome": "Stulic",
+      "sq": "Lecce",
+      "under": "24",
+      "r": "a",
+      "fvmp": 8,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.3584470319338991
+    },
+    {
+      "nome": "Koopmeiners",
+      "sq": "Juventus",
+      "under": "27",
+      "r": "c",
+      "fvmp": 8,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.11271391683180072
+    },
+    {
+      "nome": "Fofana Y.",
+      "sq": "Milan",
+      "under": "26",
+      "r": "c",
+      "fvmp": 8,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.13271391683180073
+    },
+    {
+      "nome": "Leali",
+      "sq": "Genoa",
+      "under": "32",
+      "r": "p",
+      "fvmp": 8,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.6496559903651721
+    },
+    {
+      "nome": "Lang",
+      "sq": "Napoli",
+      "under": "26",
+      "r": "a",
+      "fvmp": 7,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.41047127459484234
+    },
+    {
+      "nome": "Dovbyk",
+      "sq": "Roma",
+      "under": "28",
+      "r": "a",
+      "fvmp": 7,
+      "priority": 3,
+      "myScore": 0,
+      "score": -0.47047127459484234
+    },
+    {
+      "nome": "Neres",
+      "sq": "Napoli",
+      "under": "28",
+      "r": "c",
+      "fvmp": 7,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.027576917783231344
+    },
+    {
+      "nome": "Mandragora",
+      "sq": "Fiorentina",
+      "under": "28",
+      "r": "c",
+      "fvmp": 7,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.007576917783231343
+    },
+    {
+      "nome": "Mancini",
+      "sq": "Roma",
+      "under": "29",
+      "r": "d",
+      "fvmp": 7,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.7908250702587459
+    },
+    {
+      "nome": "Douvikas",
+      "sq": "Como",
+      "under": "26",
+      "r": "a",
+      "fvmp": 7,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.41047127459484234
+    },
+    {
+      "nome": "Folorunsho",
+      "sq": "Cagliari",
+      "under": "27",
+      "r": "c",
+      "fvmp": 7,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.027576917783231344
+    },
+    {
+      "nome": "Carboni V.",
+      "sq": "Genoa",
+      "under": "20",
+      "r": "c",
+      "fvmp": 7,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.027576917783231344
+    },
+    {
+      "nome": "Scalvini",
+      "sq": "Atalanta",
+      "under": "22",
+      "r": "d",
+      "fvmp": 7,
+      "priority": 2,
+      "myScore": 0,
+      "score": 0.7708250702587459
+    },
+    {
+      "nome": "Nzola",
+      "sq": "Pisa",
+      "under": "29",
+      "r": "a",
+      "fvmp": 7,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.41047127459484234
+    },
+    {
+      "nome": "Pasalic",
+      "sq": "Atalanta",
+      "under": "30",
+      "r": "c",
+      "fvmp": 7,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.027576917783231344
+    },
+    {
+      "nome": "Kalulu",
+      "sq": "Juventus",
+      "under": "25",
+      "r": "d",
+      "fvmp": 7,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.7908250702587459
+    },
+    {
+      "nome": "Buksa",
+      "sq": "Udinese",
+      "under": "29",
+      "r": "a",
+      "fvmp": 7,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.41047127459484234
+    },
+    {
+      "nome": "Belotti",
+      "sq": "Cagliari",
+      "under": "32",
+      "r": "a",
+      "fvmp": 7,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.41047127459484234
+    },
+    {
+      "nome": "Zerbin",
+      "sq": "Cremonese",
+      "under": "26",
+      "r": "c",
+      "fvmp": 7,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.027576917783231344
+    },
+    {
+      "nome": "Casadei",
+      "sq": "Torino",
+      "under": "22",
+      "r": "c",
+      "fvmp": 7,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.027576917783231344
+    },
+    {
+      "nome": "Valeri",
+      "sq": "Parma",
+      "under": "27",
+      "r": "d",
+      "fvmp": 7,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.810825070258746
+    },
+    {
+      "nome": "Tourè I.",
+      "sq": "Pisa",
+      "under": "27",
+      "r": "c",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.07756008126533803
+    },
+    {
+      "nome": "Dele-Bashiru",
+      "sq": "Lazio",
+      "under": "24",
+      "r": "c",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.07756008126533803
+    },
+    {
+      "nome": "Zaniolo",
+      "sq": "Udinese",
+      "under": "26",
+      "r": "c",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.07756008126533803
+    },
+    {
+      "nome": "N'Dicka",
+      "sq": "Roma",
+      "under": "26",
+      "r": "d",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.5482592337487829
+    },
+    {
+      "nome": "Acerbi",
+      "sq": "Inter",
+      "under": "37",
+      "r": "d",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.5482592337487829
+    },
+    {
+      "nome": "Caprile",
+      "sq": "Cagliari",
+      "under": "24",
+      "r": "p",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.318144291578006
+    },
+    {
+      "nome": "Giovane",
+      "sq": "Verona",
+      "under": "22",
+      "r": "a",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.4624955172557856
+    },
+    {
+      "nome": "Bravo",
+      "sq": "Udinese",
+      "under": "20",
+      "r": "a",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.4624955172557856
+    },
+    {
+      "nome": "Cambiaghi",
+      "sq": "Bologna",
+      "under": "25",
+      "r": "a",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.4624955172557856
+    },
+    {
+      "nome": "Stanciu",
+      "sq": "Genoa",
+      "under": "32",
+      "r": "c",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.07756008126533803
+    },
+    {
+      "nome": "Lovric",
+      "sq": "Udinese",
+      "under": "27",
+      "r": "c",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.07756008126533803
+    },
+    {
+      "nome": "Frattesi",
+      "sq": "Inter",
+      "under": "26",
+      "r": "c",
+      "fvmp": 6,
+      "priority": 1,
+      "myScore": 0,
+      "score": -0.09756008126533804
+    },
+    {
+      "nome": "Tomori",
+      "sq": "Milan",
+      "under": "28",
+      "r": "d",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.5482592337487829
+    },
+    {
+      "nome": "Cutrone",
+      "sq": "Parma",
+      "under": "27",
+      "r": "a",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.4624955172557856
+    },
+    {
+      "nome": "Sucic P.",
+      "sq": "Inter",
+      "under": "22",
+      "r": "c",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.07756008126533803
+    },
+    {
+      "nome": "Gronbaek",
+      "sq": "Genoa",
+      "under": "24",
+      "r": "c",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.07756008126533803
+    },
+    {
+      "nome": "Lobotka",
+      "sq": "Napoli",
+      "under": "31",
+      "r": "c",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.07756008126533803
+    },
+    {
+      "nome": "Ngonge",
+      "sq": "Torino",
+      "under": "25",
+      "r": "a",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.4624955172557856
+    },
+    {
+      "nome": "Jashari",
+      "sq": "Milan",
+      "under": "23",
+      "r": "c",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.07756008126533803
+    },
+    {
+      "nome": "Collocolo",
+      "sq": "Cremonese",
+      "under": "26",
+      "r": "c",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.07756008126533803
+    },
+    {
+      "nome": "Ferguson",
+      "sq": "Bologna",
+      "under": "26",
+      "r": "c",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.07756008126533803
+    },
+    {
+      "nome": "Nicolussi Caviglia",
+      "sq": "Fiorentina",
+      "under": "25",
+      "r": "c",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.07756008126533803
+    },
+    {
+      "nome": "Guendouzi",
+      "sq": "Lazio",
+      "under": "26",
+      "r": "c",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.07756008126533803
+    },
+    {
+      "nome": "Freuler",
+      "sq": "Bologna",
+      "under": "33",
+      "r": "c",
+      "fvmp": 6,
+      "priority": 2,
+      "myScore": 0,
+      "score": -0.11756008126533804
+    },
+    {
+      "nome": "Cristante",
+      "sq": "Roma",
+      "under": "30",
+      "r": "c",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.07756008126533803
+    },
+    {
+      "nome": "Vazquez",
+      "sq": "Cremonese",
+      "under": "36",
+      "r": "c",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.07756008126533803
+    },
+    {
+      "nome": "Kelly L.",
+      "sq": "Juventus",
+      "under": "27",
+      "r": "d",
+      "fvmp": 6,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.5282592337487829
+    },
+    {
+      "nome": "Marusic",
+      "sq": "Lazio",
+      "under": "33",
+      "r": "d",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.5482592337487829
+    },
+    {
+      "nome": "Biraghi",
+      "sq": "Torino",
+      "under": "33",
+      "r": "d",
+      "fvmp": 6,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.5482592337487829
+    },
+    {
+      "nome": "Camarda",
+      "sq": "Lecce",
+      "under": "17",
+      "r": "a",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5145197599167288
+    },
+    {
+      "nome": "El Aynaoui",
+      "sq": "Roma",
+      "under": "24",
+      "r": "c",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.1826970803139074
+    },
+    {
+      "nome": "Thorstvedt",
+      "sq": "Sassuolo",
+      "under": "26",
+      "r": "c",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.1826970803139074
+    },
+    {
+      "nome": "Ricci S.",
+      "sq": "Milan",
+      "under": "24",
+      "r": "c",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.1826970803139074
+    },
+    {
+      "nome": "Pobega",
+      "sq": "Bologna",
+      "under": "26",
+      "r": "c",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.1826970803139074
+    },
+    {
+      "nome": "Maldini",
+      "sq": "Atalanta",
+      "under": "24",
+      "r": "c",
+      "fvmp": 5,
+      "priority": 1,
+      "myScore": 0,
+      "score": -0.2026970803139074
+    },
+    {
+      "nome": "Elmas",
+      "sq": "Napoli",
+      "under": "26",
+      "r": "c",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.1826970803139074
+    },
+    {
+      "nome": "Rovella",
+      "sq": "Lazio",
+      "under": "24",
+      "r": "c",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.1826970803139074
+    },
+    {
+      "nome": "Sottil",
+      "sq": "Lecce",
+      "under": "26",
+      "r": "c",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.1826970803139074
+    },
+    {
+      "nome": "Bernardeschi",
+      "sq": "Bologna",
+      "under": "31",
+      "r": "c",
+      "fvmp": 5,
+      "priority": 3,
+      "myScore": 0,
+      "score": -0.2426970803139074
+    },
+    {
+      "nome": "Beukema",
+      "sq": "Napoli",
+      "under": "27",
+      "r": "d",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.28569339723881987
+    },
+    {
+      "nome": "Kossounou",
+      "sq": "Atalanta",
+      "under": "24",
+      "r": "d",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.28569339723881987
+    },
+    {
+      "nome": "Akanji",
+      "sq": "Inter",
+      "under": "30",
+      "r": "d",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.28569339723881987
+    },
+    {
+      "nome": "Spinazzola",
+      "sq": "Napoli",
+      "under": "32",
+      "r": "d",
+      "fvmp": 5,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.26569339723881985
+    },
+    {
+      "nome": "Zappacosta",
+      "sq": "Atalanta",
+      "under": "33",
+      "r": "d",
+      "fvmp": 5,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.26569339723881985
+    },
+    {
+      "nome": "Romagnoli",
+      "sq": "Lazio",
+      "under": "30",
+      "r": "d",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.28569339723881987
+    },
+    {
+      "nome": "Ekkelenkamp",
+      "sq": "Udinese",
+      "under": "25",
+      "r": "c",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.1826970803139074
+    },
+    {
+      "nome": "Frendrup",
+      "sq": "Genoa",
+      "under": "24",
+      "r": "c",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.1826970803139074
+    },
+    {
+      "nome": "Asllani",
+      "sq": "Torino",
+      "under": "23",
+      "r": "c",
+      "fvmp": 5,
+      "priority": 2,
+      "myScore": 0,
+      "score": -0.22269708031390742
+    },
+    {
+      "nome": "Fagioli",
+      "sq": "Fiorentina",
+      "under": "24",
+      "r": "c",
+      "fvmp": 5,
+      "priority": 3,
+      "myScore": 0,
+      "score": -0.2426970803139074
+    },
+    {
+      "nome": "Loftus-Cheek",
+      "sq": "Milan",
+      "under": "29",
+      "r": "c",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.1826970803139074
+    },
+    {
+      "nome": "Delprato",
+      "sq": "Parma",
+      "under": "26",
+      "r": "d",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.28569339723881987
+    },
+    {
+      "nome": "Lucumì",
+      "sq": "Bologna",
+      "under": "27",
+      "r": "d",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.28569339723881987
+    },
+    {
+      "nome": "Baschirotto",
+      "sq": "Cremonese",
+      "under": "29",
+      "r": "d",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.28569339723881987
+    },
+    {
+      "nome": "Pavlovic",
+      "sq": "Milan",
+      "under": "24",
+      "r": "d",
+      "fvmp": 5,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.26569339723881985
+    },
+    {
+      "nome": "Mina",
+      "sq": "Cagliari",
+      "under": "31",
+      "r": "d",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.28569339723881987
+    },
+    {
+      "nome": "Anjorin",
+      "sq": "Torino",
+      "under": "24",
+      "r": "c",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.1826970803139074
+    },
+    {
+      "nome": "Pierotti",
+      "sq": "Lecce",
+      "under": "24",
+      "r": "c",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.1826970803139074
+    },
+    {
+      "nome": "Fazzini",
+      "sq": "Fiorentina",
+      "under": "22",
+      "r": "c",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.1826970803139074
+    },
+    {
+      "nome": "Pellegrini Lo.",
+      "sq": "Roma",
+      "under": "29",
+      "r": "c",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.1826970803139074
+    },
+    {
+      "nome": "Gila",
+      "sq": "Lazio",
+      "under": "25",
+      "r": "d",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.28569339723881987
+    },
+    {
+      "nome": "Vasquez",
+      "sq": "Genoa",
+      "under": "27",
+      "r": "d",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.28569339723881987
+    },
+    {
+      "nome": "Maripan",
+      "sq": "Torino",
+      "under": "31",
+      "r": "d",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.28569339723881987
+    },
+    {
+      "nome": "De Vrij",
+      "sq": "Inter",
+      "under": "33",
+      "r": "d",
+      "fvmp": 5,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.26569339723881985
+    },
+    {
+      "nome": "Audero",
+      "sq": "Cremonese",
+      "under": "28",
+      "r": "p",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.15238844218442302
+    },
+    {
+      "nome": "Baturina",
+      "sq": "Como",
+      "under": "22",
+      "r": "c",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.1826970803139074
+    },
+    {
+      "nome": "Tete Morente",
+      "sq": "Lecce",
+      "under": "29",
+      "r": "c",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.1826970803139074
+    },
+    {
+      "nome": "Samardzic",
+      "sq": "Atalanta",
+      "under": "23",
+      "r": "c",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.1826970803139074
+    },
+    {
+      "nome": "El Shaarawy",
+      "sq": "Roma",
+      "under": "33",
+      "r": "c",
+      "fvmp": 5,
+      "priority": 2,
+      "myScore": 0,
+      "score": -0.22269708031390742
+    },
+    {
+      "nome": "Kamara H.",
+      "sq": "Udinese",
+      "under": "31",
+      "r": "d",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.28569339723881987
+    },
+    {
+      "nome": "Lazaro",
+      "sq": "Torino",
+      "under": "29",
+      "r": "d",
+      "fvmp": 5,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.28569339723881987
+    },
+    {
+      "nome": "Rodriguez Je.",
+      "sq": "Como",
+      "under": "20",
+      "r": "a",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5665440025776721
+    },
+    {
+      "nome": "Vitinha O.",
+      "sq": "Genoa",
+      "under": "25",
+      "r": "a",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5665440025776721
+    },
+    {
+      "nome": "Sulemana K.",
+      "sq": "Atalanta",
+      "under": "23",
+      "r": "a",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5665440025776721
+    },
+    {
+      "nome": "Luvumbo",
+      "sq": "Cagliari",
+      "under": "23",
+      "r": "a",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5665440025776721
+    },
+    {
+      "nome": "Perrone",
+      "sq": "Como",
+      "under": "22",
+      "r": "c",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2878340793624768
+    },
+    {
+      "nome": "Bondo",
+      "sq": "Cremonese",
+      "under": "22",
+      "r": "c",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2878340793624768
+    },
+    {
+      "nome": "Brescianini",
+      "sq": "Atalanta",
+      "under": "25",
+      "r": "c",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2878340793624768
+    },
+    {
+      "nome": "Hernani",
+      "sq": "Parma",
+      "under": "31",
+      "r": "c",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2878340793624768
+    },
+    {
+      "nome": "Vitik",
+      "sq": "Bologna",
+      "under": "22",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Gaspar K.",
+      "sq": "Lecce",
+      "under": "28",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Olivera",
+      "sq": "Napoli",
+      "under": "28",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Luperto",
+      "sq": "Cagliari",
+      "under": "29",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Dominguez B.",
+      "sq": "Bologna",
+      "under": "22",
+      "r": "a",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5665440025776721
+    },
+    {
+      "nome": "Sarr A.",
+      "sq": "Verona",
+      "under": "24",
+      "r": "a",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5665440025776721
+    },
+    {
+      "nome": "Cancellieri",
+      "sq": "Lazio",
+      "under": "23",
+      "r": "a",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5665440025776721
+    },
+    {
+      "nome": "Fabbian",
+      "sq": "Bologna",
+      "under": "22",
+      "r": "c",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2878340793624768
+    },
+    {
+      "nome": "Caqueret",
+      "sq": "Como",
+      "under": "25",
+      "r": "c",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2878340793624768
+    },
+    {
+      "nome": "Malinovskyi",
+      "sq": "Genoa",
+      "under": "32",
+      "r": "c",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2878340793624768
+    },
+    {
+      "nome": "Gaetano",
+      "sq": "Cagliari",
+      "under": "25",
+      "r": "c",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2878340793624768
+    },
+    {
+      "nome": "Angori",
+      "sq": "Pisa",
+      "under": "22",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Valle",
+      "sq": "Como",
+      "under": "21",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Idzes",
+      "sq": "Sassuolo",
+      "under": "25",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Bisseck",
+      "sq": "Inter",
+      "under": "25",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Doig",
+      "sq": "Sassuolo",
+      "under": "23",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Gatti",
+      "sq": "Juventus",
+      "under": "27",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "De Winter",
+      "sq": "Milan",
+      "under": "23",
+      "r": "d",
+      "fvmp": 4,
+      "priority": 1,
+      "myScore": 0,
+      "score": 0.003127560728856813
+    },
+    {
+      "nome": "Gutierrez",
+      "sq": "Napoli",
+      "under": "24",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Miranda J.",
+      "sq": "Bologna",
+      "under": "25",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Esposito F.P.",
+      "sq": "Inter",
+      "under": "20",
+      "r": "a",
+      "fvmp": 4,
+      "priority": 4,
+      "myScore": 0,
+      "score": -0.6465440025776721
+    },
+    {
+      "nome": "Diouf",
+      "sq": "Inter",
+      "under": "22",
+      "r": "c",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2878340793624768
+    },
+    {
+      "nome": "Baldanzi",
+      "sq": "Roma",
+      "under": "22",
+      "r": "c",
+      "fvmp": 4,
+      "priority": 2,
+      "myScore": 0,
+      "score": -0.32783407936247677
+    },
+    {
+      "nome": "Cornet",
+      "sq": "Genoa",
+      "under": "29",
+      "r": "c",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2878340793624768
+    },
+    {
+      "nome": "Comuzzo",
+      "sq": "Fiorentina",
+      "under": "20",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Pongracic",
+      "sq": "Fiorentina",
+      "under": "28",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Vojvoda",
+      "sq": "Como",
+      "under": "30",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Gabbia",
+      "sq": "Milan",
+      "under": "26",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Ranieri L.",
+      "sq": "Fiorentina",
+      "under": "26",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Aboukhlal",
+      "sq": "Torino",
+      "under": "25",
+      "r": "a",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5665440025776721
+    },
+    {
+      "nome": "Addai",
+      "sq": "Como",
+      "under": "20",
+      "r": "a",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5665440025776721
+    },
+    {
+      "nome": "Meister",
+      "sq": "Pisa",
+      "under": "22",
+      "r": "a",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5665440025776721
+    },
+    {
+      "nome": "Bonazzoli",
+      "sq": "Cremonese",
+      "under": "28",
+      "r": "a",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5665440025776721
+    },
+    {
+      "nome": "Lorran",
+      "sq": "Pisa",
+      "under": "19",
+      "r": "c",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2878340793624768
+    },
+    {
+      "nome": "Ondrejka",
+      "sq": "Parma",
+      "under": "23",
+      "r": "c",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2878340793624768
+    },
+    {
+      "nome": "Serdar",
+      "sq": "Verona",
+      "under": "28",
+      "r": "c",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2878340793624768
+    },
+    {
+      "nome": "Pisilli",
+      "sq": "Roma",
+      "under": "21",
+      "r": "c",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2878340793624768
+    },
+    {
+      "nome": "Helgason",
+      "sq": "Lecce",
+      "under": "25",
+      "r": "c",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2878340793624768
+    },
+    {
+      "nome": "Kempf",
+      "sq": "Como",
+      "under": "30",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Ehizibue",
+      "sq": "Udinese",
+      "under": "30",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Hermoso",
+      "sq": "Roma",
+      "under": "30",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Gallo",
+      "sq": "Lecce",
+      "under": "25",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Kolasinac",
+      "sq": "Atalanta",
+      "under": "32",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Djimsiti",
+      "sq": "Atalanta",
+      "under": "32",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "N'Dri",
+      "sq": "Lecce",
+      "under": "25",
+      "r": "a",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6185682452386154
+    },
+    {
+      "nome": "Djuric",
+      "sq": "Parma",
+      "under": "35",
+      "r": "a",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6185682452386154
+    },
+    {
+      "nome": "Masini",
+      "sq": "Genoa",
+      "under": "24",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Karlstrom",
+      "sq": "Udinese",
+      "under": "30",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Suslov",
+      "sq": "Verona",
+      "under": "23",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Ndour",
+      "sq": "Fiorentina",
+      "under": "21",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Aebischer",
+      "sq": "Pisa",
+      "under": "28",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Harroui",
+      "sq": "Verona",
+      "under": "27",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Coulibaly L.",
+      "sq": "Lecce",
+      "under": "29",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Luis Henrique",
+      "sq": "Inter",
+      "under": "24",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "McKennie",
+      "sq": "Juventus",
+      "under": "27",
+      "r": "c",
+      "fvmp": 3,
+      "priority": 3,
+      "myScore": 0,
+      "score": -0.45297107841104617
+    },
+    {
+      "nome": "Adopo",
+      "sq": "Cagliari",
+      "under": "25",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Vecino",
+      "sq": "Lazio",
+      "under": "34",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Joao Mario",
+      "sq": "Juventus",
+      "under": "25",
+      "r": "d",
+      "fvmp": 3,
+      "priority": 1,
+      "myScore": 0,
+      "score": -0.25943827578110623
+    },
+    {
+      "nome": "Norton-Cuffy",
+      "sq": "Genoa",
+      "under": "21",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Holm",
+      "sq": "Bologna",
+      "under": "25",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Ismajli",
+      "sq": "Torino",
+      "under": "29",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Darmian",
+      "sq": "Inter",
+      "under": "36",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Juan Jesus",
+      "sq": "Napoli",
+      "under": "34",
+      "r": "d",
+      "fvmp": 3,
+      "priority": 1,
+      "myScore": 0,
+      "score": -0.25943827578110623
+    },
+    {
+      "nome": "Montipò",
+      "sq": "Verona",
+      "under": "29",
+      "r": "p",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.17912325660274298
+    },
+    {
+      "nome": "Falcone",
+      "sq": "Lecce",
+      "under": "30",
+      "r": "p",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.17912325660274298
+    },
+    {
+      "nome": "Kilicsoy",
+      "sq": "Cagliari",
+      "under": "20",
+      "r": "a",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6185682452386154
+    },
+    {
+      "nome": "Benedyczak",
+      "sq": "Parma",
+      "under": "25",
+      "r": "a",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6185682452386154
+    },
+    {
+      "nome": "Dallinga",
+      "sq": "Bologna",
+      "under": "25",
+      "r": "a",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6185682452386154
+    },
+    {
+      "nome": "Almqvist",
+      "sq": "Parma",
+      "under": "26",
+      "r": "a",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6185682452386154
+    },
+    {
+      "nome": "Moreo",
+      "sq": "Pisa",
+      "under": "32",
+      "r": "a",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6185682452386154
+    },
+    {
+      "nome": "Sorensen O.",
+      "sq": "Parma",
+      "under": "23",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Fadera",
+      "sq": "Sassuolo",
+      "under": "24",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Konè I.",
+      "sq": "Sassuolo",
+      "under": "23",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Akinsanmiro",
+      "sq": "Pisa",
+      "under": "21",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Ellertsson",
+      "sq": "Genoa",
+      "under": "23",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Volpato",
+      "sq": "Sassuolo",
+      "under": "22",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Rensch",
+      "sq": "Roma",
+      "under": "22",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Circati",
+      "sq": "Parma",
+      "under": "22",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Terracciano F.",
+      "sq": "Cremonese",
+      "under": "22",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Ostigard",
+      "sq": "Genoa",
+      "under": "26",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Celik",
+      "sq": "Roma",
+      "under": "28",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Zappa",
+      "sq": "Cagliari",
+      "under": "26",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Pezzella Giu.",
+      "sq": "Cremonese",
+      "under": "28",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Cuadrado",
+      "sq": "Pisa",
+      "under": "37",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Okoye",
+      "sq": "Udinese",
+      "under": "26",
+      "r": "p",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.17912325660274298
+    },
+    {
+      "nome": "Bayo V.",
+      "sq": "Udinese",
+      "under": "28",
+      "r": "a",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6185682452386154
+    },
+    {
+      "nome": "Moumbagna",
+      "sq": "Cremonese",
+      "under": "25",
+      "r": "a",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6185682452386154
+    },
+    {
+      "nome": "Borrelli",
+      "sq": "Cagliari",
+      "under": "25",
+      "r": "a",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6185682452386154
+    },
+    {
+      "nome": "Piotrowski",
+      "sq": "Udinese",
+      "under": "28",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Ordonez C.",
+      "sq": "Parma",
+      "under": "21",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Felici",
+      "sq": "Cagliari",
+      "under": "24",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Pierret",
+      "sq": "Lecce",
+      "under": "25",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Boloca",
+      "sq": "Sassuolo",
+      "under": "27",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Gilmour",
+      "sq": "Napoli",
+      "under": "24",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Ilic",
+      "sq": "Torino",
+      "under": "24",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Messias",
+      "sq": "Genoa",
+      "under": "34",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Zielinski",
+      "sq": "Inter",
+      "under": "31",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Troilo",
+      "sq": "Parma",
+      "under": "22",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Belghali",
+      "sq": "Verona",
+      "under": "23",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Heggem",
+      "sq": "Bologna",
+      "under": "26",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Athekame",
+      "sq": "Milan",
+      "under": "21",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Muharemovic",
+      "sq": "Sassuolo",
+      "under": "22",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Canestrelli",
+      "sq": "Pisa",
+      "under": "25",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Nelsson",
+      "sq": "Verona",
+      "under": "27",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Tiago Gabriel",
+      "sq": "Lecce",
+      "under": "21",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Candè",
+      "sq": "Sassuolo",
+      "under": "27",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Ramon",
+      "sq": "Como",
+      "under": "20",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Coco",
+      "sq": "Torino",
+      "under": "26",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Kristensen T.",
+      "sq": "Udinese",
+      "under": "23",
+      "r": "d",
+      "fvmp": 3,
+      "priority": 1,
+      "myScore": 0,
+      "score": -0.25943827578110623
+    },
+    {
+      "nome": "Lykogiannis",
+      "sq": "Bologna",
+      "under": "32",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Caracciolo A.",
+      "sq": "Pisa",
+      "under": "35",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Semper",
+      "sq": "Pisa",
+      "under": "27",
+      "r": "p",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.17912325660274298
+    },
+    {
+      "nome": "Mosquera",
+      "sq": "Verona",
+      "under": "26",
+      "r": "a",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6185682452386154
+    },
+    {
+      "nome": "Marin M.",
+      "sq": "Pisa",
+      "under": "27",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Prati",
+      "sq": "Cagliari",
+      "under": "22",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Ramadani",
+      "sq": "Lecce",
+      "under": "29",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Gineitis",
+      "sq": "Torino",
+      "under": "21",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Berisha M.",
+      "sq": "Lecce",
+      "under": "22",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Vranckx",
+      "sq": "Sassuolo",
+      "under": "23",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Tameze",
+      "sq": "Torino",
+      "under": "31",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Mazzitelli",
+      "sq": "Cagliari",
+      "under": "30",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Deiola",
+      "sq": "Cagliari",
+      "under": "30",
+      "r": "c",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.39297107841104617
+    },
+    {
+      "nome": "Bella-Kotchap",
+      "sq": "Verona",
+      "under": "24",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Siebert",
+      "sq": "Lecce",
+      "under": "23",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Lovik",
+      "sq": "Parma",
+      "under": "22",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Unai Nunez",
+      "sq": "Verona",
+      "under": "28",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Zemura",
+      "sq": "Udinese",
+      "under": "26",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Ebosse",
+      "sq": "Verona",
+      "under": "26",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Bertola",
+      "sq": "Udinese",
+      "under": "22",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Parisi",
+      "sq": "Fiorentina",
+      "under": "25",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Valenti",
+      "sq": "Parma",
+      "under": "26",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Walukiewicz",
+      "sq": "Sassuolo",
+      "under": "25",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Lazzari",
+      "sq": "Lazio",
+      "under": "32",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Ceccherini",
+      "sq": "Cremonese",
+      "under": "33",
+      "r": "d",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.2394382757811062
+    },
+    {
+      "nome": "Suzuki",
+      "sq": "Parma",
+      "under": "23",
+      "r": "p",
+      "fvmp": 3,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.17912325660274298
+    },
+    {
+      "nome": "Muric",
+      "sq": "Sassuolo",
+      "under": "27",
+      "r": "p",
+      "fvmp": 0,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.676390804783492
+    },
+    {
+      "nome": "Banda",
+      "sq": "Lecce",
+      "under": "24",
+      "r": "a",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6705924878995586
+    },
+    {
+      "nome": "Cremaschi",
+      "sq": "Parma",
+      "under": "20",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Miller L.",
+      "sq": "Udinese",
+      "under": "19",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Bernede",
+      "sq": "Verona",
+      "under": "26",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Keita M.",
+      "sq": "Parma",
+      "under": "23",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Belahyane",
+      "sq": "Lazio",
+      "under": "21",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Sulemana I.",
+      "sq": "Bologna",
+      "under": "22",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Niasse",
+      "sq": "Verona",
+      "under": "25",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Matic",
+      "sq": "Sassuolo",
+      "under": "37",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Kastanos",
+      "sq": "Verona",
+      "under": "27",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Cataldi",
+      "sq": "Lazio",
+      "under": "31",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Ndiaye",
+      "sq": "Parma",
+      "under": "23",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Kouassi",
+      "sq": "Lecce",
+      "under": "22",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Goglichidze",
+      "sq": "Udinese",
+      "under": "21",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Pedersen",
+      "sq": "Torino",
+      "under": "25",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Posch",
+      "sq": "Como",
+      "under": "28",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Cabal",
+      "sq": "Juventus",
+      "under": "24",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Obert",
+      "sq": "Cagliari",
+      "under": "23",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Diego Carlos",
+      "sq": "Como",
+      "under": "32",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Sabelli",
+      "sq": "Genoa",
+      "under": "32",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "De Silvestri",
+      "sq": "Bologna",
+      "under": "37",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Albiol",
+      "sq": "Pisa",
+      "under": "40",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Sava",
+      "sq": "Udinese",
+      "under": "23",
+      "r": "p",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.344879105996326
+    },
+    {
+      "nome": "Noslin",
+      "sq": "Lazio",
+      "under": "26",
+      "r": "a",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6705924878995586
+    },
+    {
+      "nome": "Johnsen",
+      "sq": "Cremonese",
+      "under": "27",
+      "r": "a",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6705924878995586
+    },
+    {
+      "nome": "Pierini",
+      "sq": "Sassuolo",
+      "under": "27",
+      "r": "a",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6705924878995586
+    },
+    {
+      "nome": "Piccinini G.",
+      "sq": "Pisa",
+      "under": "24",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Al-Musrati",
+      "sq": "Verona",
+      "under": "29",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Venturino",
+      "sq": "Genoa",
+      "under": "19",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Miretti",
+      "sq": "Juventus",
+      "under": "22",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Musah",
+      "sq": "Atalanta",
+      "under": "23",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Grassi",
+      "sq": "Cremonese",
+      "under": "30",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Zè Pedro",
+      "sq": "Cagliari",
+      "under": "28",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Floriani Mussolini",
+      "sq": "Cremonese",
+      "under": "22",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Folino",
+      "sq": "Cremonese",
+      "under": "23",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Valentini N.",
+      "sq": "Verona",
+      "under": "24",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Faye",
+      "sq": "Cremonese",
+      "under": "21",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Marianucci",
+      "sq": "Napoli",
+      "under": "21",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Frese",
+      "sq": "Verona",
+      "under": "27",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Ghilardi",
+      "sq": "Roma",
+      "under": "22",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Viti",
+      "sq": "Fiorentina",
+      "under": "23",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Marì",
+      "sq": "Fiorentina",
+      "under": "32",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Romagna",
+      "sq": "Sassuolo",
+      "under": "28",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Milinkovic-Savic V.",
+      "sq": "Napoli",
+      "under": "28",
+      "r": "p",
+      "fvmp": 2,
+      "priority": 2,
+      "myScore": 0,
+      "score": -0.38487910599632597
+    },
+    {
+      "nome": "Cheddira",
+      "sq": "Sassuolo",
+      "under": "27",
+      "r": "a",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6705924878995586
+    },
+    {
+      "nome": "Sala A.",
+      "sq": "Lecce",
+      "under": "24",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Richardson",
+      "sq": "Fiorentina",
+      "under": "23",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Sarmiento J.",
+      "sq": "Cremonese",
+      "under": "23",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Payero",
+      "sq": "Cremonese",
+      "under": "27",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Lipani",
+      "sq": "Sassuolo",
+      "under": "20",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Thorsby",
+      "sq": "Genoa",
+      "under": "29",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Sergi Roberto",
+      "sq": "Como",
+      "under": "33",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Odenthal",
+      "sq": "Sassuolo",
+      "under": "25",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Veiga D.",
+      "sq": "Lecce",
+      "under": "23",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Palestra",
+      "sq": "Cagliari",
+      "under": "20",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Mateus Lusuardi",
+      "sq": "Pisa",
+      "under": "21",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Lamptey",
+      "sq": "Fiorentina",
+      "under": "25",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Barbieri",
+      "sq": "Cremonese",
+      "under": "23",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Bradaric",
+      "sq": "Verona",
+      "under": "26",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Zanoli",
+      "sq": "Udinese",
+      "under": "25",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Casale",
+      "sq": "Bologna",
+      "under": "27",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Tsimikas",
+      "sq": "Roma",
+      "under": "29",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Calabresi",
+      "sq": "Pisa",
+      "under": "29",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Pellegrini Lu.",
+      "sq": "Lazio",
+      "under": "26",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Masina",
+      "sq": "Torino",
+      "under": "31",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Frigan",
+      "sq": "Parma",
+      "under": "22",
+      "r": "a",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6705924878995586
+    },
+    {
+      "nome": "Iannoni",
+      "sq": "Sassuolo",
+      "under": "24",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Rafia",
+      "sq": "Lecce",
+      "under": "26",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Moro N.",
+      "sq": "Bologna",
+      "under": "27",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Estevez",
+      "sq": "Parma",
+      "under": "30",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Kostic",
+      "sq": "Juventus",
+      "under": "33",
+      "r": "c",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.49810807745961555
+    },
+    {
+      "nome": "Ziolkowski",
+      "sq": "Roma",
+      "under": "20",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Idrissi R.",
+      "sq": "Cagliari",
+      "under": "20",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Palma",
+      "sq": "Udinese",
+      "under": "17",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Van Der Brempt",
+      "sq": "Como",
+      "under": "23",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Gigot",
+      "sq": "Lazio",
+      "under": "32",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Moreno Alb.",
+      "sq": "Como",
+      "under": "33",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Patric",
+      "sq": "Lazio",
+      "under": "32",
+      "r": "d",
+      "fvmp": 2,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.5020041122910692
+    },
+    {
+      "nome": "Liteta",
+      "sq": "Cagliari",
+      "under": "19",
+      "r": "c",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6032450765081849
+    },
+    {
+      "nome": "Zarraga",
+      "sq": "Udinese",
+      "under": "26",
+      "r": "c",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6032450765081849
+    },
+    {
+      "nome": "Maleh",
+      "sq": "Lecce",
+      "under": "27",
+      "r": "c",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6032450765081849
+    },
+    {
+      "nome": "Gagliardini",
+      "sq": "Verona",
+      "under": "31",
+      "r": "c",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6032450765081849
+    },
+    {
+      "nome": "Rui Modesto",
+      "sq": "Udinese",
+      "under": "26",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Coulibaly W.",
+      "sq": "Sassuolo",
+      "under": "26",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Nkounkou",
+      "sq": "Torino",
+      "under": "25",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Kabasele",
+      "sq": "Udinese",
+      "under": "34",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Goldaniga",
+      "sq": "Como",
+      "under": "32",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Hysaj",
+      "sq": "Lazio",
+      "under": "31",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "De Luca",
+      "sq": "Cremonese",
+      "under": "27",
+      "r": "a",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7226167305605019
+    },
+    {
+      "nome": "Ekuban",
+      "sq": "Genoa",
+      "under": "31",
+      "r": "a",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7226167305605019
+    },
+    {
+      "nome": "Milik",
+      "sq": "Juventus",
+      "under": "31",
+      "r": "a",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7226167305605019
+    },
+    {
+      "nome": "Odogu",
+      "sq": "Milan",
+      "under": "19",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Fortini",
+      "sq": "Fiorentina",
+      "under": "19",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Smolcic I.",
+      "sq": "Como",
+      "under": "25",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Provstgaard",
+      "sq": "Lazio",
+      "under": "22",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Slotsager",
+      "sq": "Verona",
+      "under": "19",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Ahanor",
+      "sq": "Atalanta",
+      "under": "17",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Bartesaghi",
+      "sq": "Milan",
+      "under": "20",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Bonfanti",
+      "sq": "Pisa",
+      "under": "22",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Paz Y.",
+      "sq": "Sassuolo",
+      "under": "23",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Dossena",
+      "sq": "Como",
+      "under": "27",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Schuurs",
+      "sq": "Torino",
+      "under": "26",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Mazzocchi",
+      "sq": "Napoli",
+      "under": "30",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Rugani",
+      "sq": "Juventus",
+      "under": "31",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Ravaglia F.",
+      "sq": "Bologna",
+      "under": "26",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Onana J.",
+      "sq": "Genoa",
+      "under": "25",
+      "r": "c",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6032450765081849
+    },
+    {
+      "nome": "Sabiri",
+      "sq": "Fiorentina",
+      "under": "29",
+      "r": "c",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6032450765081849
+    },
+    {
+      "nome": "Cham",
+      "sq": "Verona",
+      "under": "19",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Denoon",
+      "sq": "Pisa",
+      "under": "21",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Pieragnolo",
+      "sq": "Sassuolo",
+      "under": "22",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Coppola F.",
+      "sq": "Pisa",
+      "under": "20",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Oyegoke",
+      "sq": "Verona",
+      "under": "22",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Rouhi",
+      "sq": "Juventus",
+      "under": "21",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Di Pardo",
+      "sq": "Cagliari",
+      "under": "26",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Bianchetti",
+      "sq": "Cremonese",
+      "under": "32",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Ekhator",
+      "sq": "Genoa",
+      "under": "19",
+      "r": "a",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7226167305605019
+    },
+    {
+      "nome": "Okereke",
+      "sq": "Cremonese",
+      "under": "28",
+      "r": "a",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7226167305605019
+    },
+    {
+      "nome": "Pavoletti",
+      "sq": "Cagliari",
+      "under": "37",
+      "r": "a",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7226167305605019
+    },
+    {
+      "nome": "Leris",
+      "sq": "Pisa",
+      "under": "27",
+      "r": "c",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6032450765081849
+    },
+    {
+      "nome": "Valoti",
+      "sq": "Cremonese",
+      "under": "32",
+      "r": "c",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6032450765081849
+    },
+    {
+      "nome": "Otoa",
+      "sq": "Genoa",
+      "under": "21",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Jean",
+      "sq": "Lecce",
+      "under": "25",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Dembelè A.",
+      "sq": "Torino",
+      "under": "21",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Mandas",
+      "sq": "Lazio",
+      "under": "24",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Martinez Jo.",
+      "sq": "Inter",
+      "under": "27",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Turati",
+      "sq": "Sassuolo",
+      "under": "24",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Santiago",
+      "sq": "Verona",
+      "under": "21",
+      "r": "c",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6032450765081849
+    },
+    {
+      "nome": "Hojholt",
+      "sq": "Pisa",
+      "under": "24",
+      "r": "c",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6032450765081849
+    },
+    {
+      "nome": "Marchwinski",
+      "sq": "Lecce",
+      "under": "23",
+      "r": "c",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6032450765081849
+    },
+    {
+      "nome": "Kaba",
+      "sq": "Lecce",
+      "under": "24",
+      "r": "c",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6032450765081849
+    },
+    {
+      "nome": "Akpa Akpro",
+      "sq": "Verona",
+      "under": "33",
+      "r": "c",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6032450765081849
+    },
+    {
+      "nome": "Britschgi",
+      "sq": "Parma",
+      "under": "19",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Ndaba",
+      "sq": "Lecce",
+      "under": "26",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Mbambi",
+      "sq": "Pisa",
+      "under": "17",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Esteves T.",
+      "sq": "Pisa",
+      "under": "23",
+      "r": "d",
+      "fvmp": 4,
+      "priority": null,
+      "myScore": 0,
+      "score": 0.023127560728856814
+    },
+    {
+      "nome": "Marcandalli",
+      "sq": "Genoa",
+      "under": "23",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Arena A.",
+      "sq": "Roma",
+      "under": "16",
+      "r": "a",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7226167305605019
+    },
+    {
+      "nome": "Gueye",
+      "sq": "Udinese",
+      "under": "19",
+      "r": "a",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7226167305605019
+    },
+    {
+      "nome": "Ambrosino",
+      "sq": "Napoli",
+      "under": "22",
+      "r": "a",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7226167305605019
+    },
+    {
+      "nome": "Balentien",
+      "sq": "Milan",
+      "under": "19",
+      "r": "a",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7226167305605019
+    },
+    {
+      "nome": "Buffon L.",
+      "sq": "Pisa",
+      "under": "18",
+      "r": "a",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7226167305605019
+    },
+    {
+      "nome": "Skjellerup",
+      "sq": "Sassuolo",
+      "under": "23",
+      "r": "a",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7226167305605019
+    },
+    {
+      "nome": "Moro L.",
+      "sq": "Sassuolo",
+      "under": "24",
+      "r": "a",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7226167305605019
+    },
+    {
+      "nome": "Njie",
+      "sq": "Torino",
+      "under": "20",
+      "r": "a",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7226167305605019
+    },
+    {
+      "nome": "Vergara",
+      "sq": "Napoli",
+      "under": "22",
+      "r": "c",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6032450765081849
+    },
+    {
+      "nome": "Vural",
+      "sq": "Pisa",
+      "under": "19",
+      "r": "c",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6032450765081849
+    },
+    {
+      "nome": "Cuenca H.",
+      "sq": "Genoa",
+      "under": "20",
+      "r": "c",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6032450765081849
+    },
+    {
+      "nome": "Adzic",
+      "sq": "Juventus",
+      "under": "19",
+      "r": "c",
+      "fvmp": 1,
+      "priority": 1,
+      "myScore": 8,
+      "score": 3.376754923491815
+    },
+    {
+      "nome": "Ilkhan",
+      "sq": "Torino",
+      "under": "21",
+      "r": "c",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6032450765081849
+    },
+    {
+      "nome": "Basic",
+      "sq": "Lazio",
+      "under": "29",
+      "r": "c",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6032450765081849
+    },
+    {
+      "nome": "Rog",
+      "sq": "Cagliari",
+      "under": "30",
+      "r": "c",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.6032450765081849
+    },
+    {
+      "nome": "Rodriguez Ju.",
+      "sq": "Cagliari",
+      "under": "20",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Kouadio",
+      "sq": "Fiorentina",
+      "under": "19",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Perez M.",
+      "sq": "Lecce",
+      "under": "20",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Palacios T.",
+      "sq": "Inter",
+      "under": "22",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Sernicola",
+      "sq": "Cremonese",
+      "under": "28",
+      "r": "d",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.7645699488010324
+    },
+    {
+      "nome": "Cavlina",
+      "sq": "Como",
+      "under": "23",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Toniolo",
+      "sq": "Verona",
+      "under": "21",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Nunziante",
+      "sq": "Udinese",
+      "under": "18",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Pessina Mas.",
+      "sq": "Bologna",
+      "under": "18",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Zelezny",
+      "sq": "Roma",
+      "under": "19",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Siegrist",
+      "sq": "Genoa",
+      "under": "33",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Torriani",
+      "sq": "Milan",
+      "under": "20",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Corvi",
+      "sq": "Parma",
+      "under": "24",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Samooja",
+      "sq": "Lecce",
+      "under": "22",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Nava",
+      "sq": "Cremonese",
+      "under": "21",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Furlanetto",
+      "sq": "Lazio",
+      "under": "23",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Popa",
+      "sq": "Torino",
+      "under": "25",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Martinelli T.",
+      "sq": "Fiorentina",
+      "under": "19",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Vasquez D.",
+      "sq": "Roma",
+      "under": "27",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Rinaldi",
+      "sq": "Parma",
+      "under": "23",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Paleari",
+      "sq": "Torino",
+      "under": "33",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Ciocci",
+      "sq": "Cagliari",
+      "under": "23",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Contini",
+      "sq": "Napoli",
+      "under": "29",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Terracciano",
+      "sq": "Milan",
+      "under": "35",
+      "r": "p",
+      "fvmp": 0,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.676390804783492
+    },
+    {
+      "nome": "Vigorito",
+      "sq": "Como",
+      "under": "35",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Fruchtl",
+      "sq": "Lecce",
+      "under": "25",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Rossi F.",
+      "sq": "Atalanta",
+      "under": "34",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Nicolas",
+      "sq": "Pisa",
+      "under": "37",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Silvestri",
+      "sq": "Cremonese",
+      "under": "34",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Satalino",
+      "sq": "Sassuolo",
+      "under": "26",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Pinsoglio",
+      "sq": "Juventus",
+      "under": "35",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Di Gennaro",
+      "sq": "Inter",
+      "under": "32",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Gollini",
+      "sq": "Roma",
+      "under": "30",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Scuffet",
+      "sq": "Pisa",
+      "under": "29",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Padelli",
+      "sq": "Udinese",
+      "under": "40",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Perilli",
+      "sq": "Verona",
+      "under": "30",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Sommariva",
+      "sq": "Genoa",
+      "under": "28",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Perin",
+      "sq": "Juventus",
+      "under": "33",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Lezzerini",
+      "sq": "Fiorentina",
+      "under": "30",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Sportiello",
+      "sq": "Atalanta",
+      "under": "33",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    },
+    {
+      "nome": "Radunovic",
+      "sq": "Cagliari",
+      "under": "29",
+      "r": "p",
+      "fvmp": 1,
+      "priority": null,
+      "myScore": 0,
+      "score": -0.510634955389909
+    }
+  ],
+  "opponents": {
+    "linda": {
+      "budget": 233,
+      "players": [
+        {
+          "nome": "Svilar",
+          "price": 17
+        }
+      ]
+    }
+  }
+}

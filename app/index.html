@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏆 Asta Fantacalcio Helper 🏆</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Immagini decorative -->
+    <img src="images/1.png" alt="Decorazione" class="decorative-image top-right">
+    <img src="images/2.png" alt="Decorazione" class="decorative-image bottom-left">
+    
+    <div class="container">
+        <header>
+            <h1>🏆 Asta Fantacalcio Helper 🏆</h1>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="init">Inizializza</button>
+                <button class="tab-btn" data-tab="suggest">Suggerimenti</button>
+                <button class="tab-btn" data-tab="state">Stato</button>
+                <button class="tab-btn" data-tab="search"><i class="fas fa-search"></i> Cerca</button>
+                <button class="tab-btn" data-tab="list">Lista Ruoli</button>
+                <button class="tab-btn" data-tab="editor">Editor</button>
+                <button class="tab-btn" data-tab="guide"><i class="fas fa-question-circle"></i> Guida</button>
+            </div>
+        </header>
+
+        <main>
+            <!-- Tab: Inizializza -->
+            <section id="init" class="tab-content active">
+                <div class="card">
+                    <h2>Inizializza Asta</h2>
+                    <div class="form-group">
+                        <label for="csv-file">File CSV Giocatori:</label>
+                        <input type="file" id="csv-file" accept=".csv">
+                        <button id="load-sample-csv" class="btn secondary" style="margin-top: 10px;"><i class="fas fa-file-csv"></i> Carica CSV di esempio</button>
+                    </div>
+                    
+                    <div class="config-section">
+                        <h3>Configurazione Base</h3>
+                        <div class="form-group">
+                            <label for="budget">Budget Totale:</label>
+                            <input type="number" id="budget" value="200" min="1">
+                        </div>
+                        <div class="form-group">
+                            <label for="topk">Numero Suggerimenti:</label>
+                            <input type="number" id="topk" value="6" min="1" max="20">
+                        </div>
+                        <div class="form-group">
+                            <label for="my-score-weight">Peso Score Personale:</label>
+                            <input type="number" id="my-score-weight" value="0.5" min="0" max="2" step="0.1">
+                            <small>Quanto conta il tuo voto personale rispetto al FVMP</small>
+                        </div>
+                    </div>
+                    
+                    <div class="config-section">
+                        <h3>Target Ruoli</h3>
+                        <div class="config-grid">
+                            <div class="form-group">
+                                <label for="target-p">Portieri:</label>
+                                <input type="number" id="target-p" value="3" min="0" max="10">
+                            </div>
+                            <div class="form-group">
+                                <label for="target-d">Difensori:</label>
+                                <input type="number" id="target-d" value="8" min="0" max="20">
+                            </div>
+                            <div class="form-group">
+                                <label for="target-c">Centrocampisti:</label>
+                                <input type="number" id="target-c" value="8" min="0" max="20">
+                            </div>
+                            <div class="form-group">
+                                <label for="target-a">Attaccanti:</label>
+                                <input type="number" id="target-a" value="6" min="0" max="15">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="config-section">
+                        <h3>Budget Cap per Ruolo</h3>
+                        <div class="budget-cap-toggle">
+                            <label class="toggle-label">
+                                <input type="radio" name="cap-type" value="percentage" checked> Percentuale
+                            </label>
+                            <label class="toggle-label">
+                                <input type="radio" name="cap-type" value="absolute"> Valore Assoluto
+                            </label>
+                        </div>
+                        
+                        <div class="config-grid" id="percentage-caps">
+                            <div class="form-group">
+                                <label for="cap-p-percent">Portieri (%):</label>
+                                <input type="number" id="cap-p-percent" value="10" min="1" max="100" step="1">
+                            </div>
+                            <div class="form-group">
+                                <label for="cap-d-percent">Difensori (%):</label>
+                                <input type="number" id="cap-d-percent" value="25" min="1" max="100" step="1">
+                            </div>
+                            <div class="form-group">
+                                <label for="cap-c-percent">Centrocampisti (%):</label>
+                                <input type="number" id="cap-c-percent" value="35" min="1" max="100" step="1">
+                            </div>
+                            <div class="form-group">
+                                <label for="cap-a-percent">Attaccanti (%):</label>
+                                <input type="number" id="cap-a-percent" value="30" min="1" max="100" step="1">
+                            </div>
+                            <div class="form-group full-width">
+                                <div class="cap-total">Totale: <span id="percent-total">100</span>%</div>
+                            </div>
+                        </div>
+                        
+                        <div class="config-grid hidden" id="absolute-caps">
+                            <div class="form-group">
+                                <label for="cap-p-abs">Portieri:</label>
+                                <input type="number" id="cap-p-abs" value="20" min="1">
+                            </div>
+                            <div class="form-group">
+                                <label for="cap-d-abs">Difensori:</label>
+                                <input type="number" id="cap-d-abs" value="50" min="1">
+                            </div>
+                            <div class="form-group">
+                                <label for="cap-c-abs">Centrocampisti:</label>
+                                <input type="number" id="cap-c-abs" value="70" min="1">
+                            </div>
+                            <div class="form-group">
+                                <label for="cap-a-abs">Attaccanti:</label>
+                                <input type="number" id="cap-a-abs" value="60" min="1">
+                            </div>
+                            <div class="form-group full-width">
+                                <div class="cap-total">Totale: <span id="abs-total">200</span> / <span id="abs-budget">200</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button id="init-btn" class="btn primary">Inizializza</button>
+                </div>
+            </section>
+
+            <!-- Tab: Suggerimenti -->
+            <section id="suggest" class="tab-content">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Suggerimenti</h2>
+                        <button id="refresh-suggest" class="btn secondary"><i class="fas fa-sync-alt"></i></button>
+                    </div>
+                    <div class="budget-info">
+                        <div>Budget totale: <span id="budget-total">0</span></div>
+                        <div>Budget rimasto: <span id="budget-left">0</span></div>
+                    </div>
+                    <div class="roles-needed">
+                        <h3>Da acquistare:</h3>
+                        <div id="roles-needed-list" class="roles-grid">
+                            <!-- Populated by JS -->
+                        </div>
+                    </div>
+                    
+                    <!-- Ruoli Budget Info -->
+                    <div class="budget-roles-info">
+                        <h3>Budget per ruolo:</h3>
+                        <div class="budget-roles-grid">
+                            <div class="budget-role-item">
+                                <span class="role-label">Portieri:</span>
+                                <span class="budget-values">
+                                    <span id="p-budget-cap">0</span> (cap) / 
+                                    <span id="p-budget-spent">0</span> (speso) / 
+                                    <span id="p-budget-left">0</span> (rimasto)
+                                </span>
+                            </div>
+                            <div class="budget-role-item">
+                                <span class="role-label">Difensori:</span>
+                                <span class="budget-values">
+                                    <span id="d-budget-cap">0</span> (cap) / 
+                                    <span id="d-budget-spent">0</span> (speso) / 
+                                    <span id="d-budget-left">0</span> (rimasto)
+                                </span>
+                            </div>
+                            <div class="budget-role-item">
+                                <span class="role-label">Centrocampisti:</span>
+                                <span class="budget-values">
+                                    <span id="c-budget-cap">0</span> (cap) / 
+                                    <span id="c-budget-spent">0</span> (speso) / 
+                                    <span id="c-budget-left">0</span> (rimasto)
+                                </span>
+                            </div>
+                            <div class="budget-role-item">
+                                <span class="role-label">Attaccanti:</span>
+                                <span class="budget-values">
+                                    <span id="a-budget-cap">0</span> (cap) / 
+                                    <span id="a-budget-spent">0</span> (speso) / 
+                                    <span id="a-budget-left">0</span> (rimasto)
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Sezione Portieri -->
+                    <div class="role-section" id="p-section">
+                        <div class="role-header">
+                            <h3>Portieri</h3>
+                            <div class="role-actions">
+                                <button class="role-toggle-btn" data-role="p"><i class="fas fa-chevron-down"></i></button>
+                            </div>
+                        </div>
+                        <div class="role-content" id="p-content">
+                            <div class="suggestions-tabs">
+                                <button class="suggestion-tab active" data-role="p" data-type="standard">Standard</button>
+                                <button class="suggestion-tab" data-role="p" data-type="optimized">Ottimizzati</button>
+                            </div>
+                            <div class="suggestions-list" id="p-standard">
+                                <!-- Populated by JS -->
+                            </div>
+                            <div class="suggestions-list hidden" id="p-optimized">
+                                <!-- Populated by JS -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Sezione Difensori -->
+                    <div class="role-section" id="d-section">
+                        <div class="role-header">
+                            <h3>Difensori</h3>
+                            <div class="role-actions">
+                                <button class="role-toggle-btn" data-role="d"><i class="fas fa-chevron-down"></i></button>
+                            </div>
+                        </div>
+                        <div class="role-content" id="d-content">
+                            <div class="suggestions-tabs">
+                                <button class="suggestion-tab active" data-role="d" data-type="standard">Standard</button>
+                                <button class="suggestion-tab" data-role="d" data-type="optimized">Ottimizzati</button>
+                            </div>
+                            <div class="suggestions-list" id="d-standard">
+                                <!-- Populated by JS -->
+                            </div>
+                            <div class="suggestions-list hidden" id="d-optimized">
+                                <!-- Populated by JS -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Sezione Centrocampisti -->
+                    <div class="role-section" id="c-section">
+                        <div class="role-header">
+                            <h3>Centrocampisti</h3>
+                            <div class="role-actions">
+                                <button class="role-toggle-btn" data-role="c"><i class="fas fa-chevron-down"></i></button>
+                            </div>
+                        </div>
+                        <div class="role-content" id="c-content">
+                            <div class="suggestions-tabs">
+                                <button class="suggestion-tab active" data-role="c" data-type="standard">Standard</button>
+                                <button class="suggestion-tab" data-role="c" data-type="optimized">Ottimizzati</button>
+                            </div>
+                            <div class="suggestions-list" id="c-standard">
+                                <!-- Populated by JS -->
+                            </div>
+                            <div class="suggestions-list hidden" id="c-optimized">
+                                <!-- Populated by JS -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Sezione Attaccanti -->
+                    <div class="role-section" id="a-section">
+                        <div class="role-header">
+                            <h3>Attaccanti</h3>
+                            <div class="role-actions">
+                                <button class="role-toggle-btn" data-role="a"><i class="fas fa-chevron-down"></i></button>
+                            </div>
+                        </div>
+                        <div class="role-content" id="a-content">
+                            <div class="suggestions-tabs">
+                                <button class="suggestion-tab active" data-role="a" data-type="standard">Standard</button>
+                                <button class="suggestion-tab" data-role="a" data-type="optimized">Ottimizzati</button>
+                            </div>
+                            <div class="suggestions-list" id="a-standard">
+                                <!-- Populated by JS -->
+                            </div>
+                            <div class="suggestions-list hidden" id="a-optimized">
+                                <!-- Populated by JS -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab: Stato -->
+            <section id="state" class="tab-content">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Stato Attuale</h2>
+                        <button id="refresh-state" class="btn secondary"><i class="fas fa-sync-alt"></i></button>
+                    </div>
+                    <div class="budget-info">
+                        <div>Budget totale: <span id="state-budget-total">0</span></div>
+                        <div>Budget rimasto: <span id="state-budget-left">0</span></div>
+                    </div>
+                    
+                    <div class="balance-meter">
+                        <h3>Bilanciamento Squadra</h3>
+                        <div class="progress">
+                            <div id="balance-bar" class="progress-bar" style="width: 0%;">0%</div>
+                        </div>
+                    </div>
+                    
+                    <div class="state-grid">
+                        <div class="state-column">
+                            <div class="accordion">
+                                <div class="accordion-header" data-accordion="roster">
+                                    <h3>Rosa Attuale</h3>
+                                    <button class="accordion-toggle"><i class="fas fa-chevron-down"></i></button>
+                                </div>
+                                <div class="accordion-content active" id="roster-accordion">
+                                    <div id="picked-players" class="player-list">
+                                        <!-- Populated by JS -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="state-column">
+                            <div class="accordion">
+                                <div class="accordion-header" data-accordion="gone">
+                                    <h3>Giocatori Non Disponibili</h3>
+                                    <button class="accordion-toggle"><i class="fas fa-chevron-down"></i></button>
+                                </div>
+                                <div class="accordion-content active" id="gone-accordion">
+                                    <div id="gone-players" class="player-list">
+                                        <!-- Populated by JS -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="state-column">
+                            <div class="accordion">
+                                <div class="accordion-header" data-accordion="opponents">
+                                    <h3>Avversari</h3>
+                                    <button class="accordion-toggle"><i class="fas fa-chevron-down"></i></button>
+                                </div>
+                                <div class="accordion-content active" id="opponents-accordion">
+                                    <div id="opponents-list" class="opponents-list">
+                                        <!-- Populated by JS -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="actions">
+                        <div class="action-card">
+                            <h3>Acquista Giocatore</h3>
+                            <div class="form-group">
+                                <label for="pick-player">Nome:</label>
+                                <input type="text" id="pick-player" placeholder="Es. Osimhen">
+                            </div>
+                            <div class="form-group">
+                                <label for="pick-price">Prezzo:</label>
+                                <input type="number" id="pick-price" min="1" value="1">
+                            </div>
+                            <button id="pick-btn" class="btn primary">Acquista</button>
+                        </div>
+                        
+                        <div class="action-card">
+                            <h3>Segnala Acquisto</h3>
+                            <div class="form-group">
+                                <label for="gone-player">Nome:</label>
+                                <input type="text" id="gone-player" placeholder="Es. Lautaro">
+                            </div>
+                            <div class="form-group">
+                                <label for="gone-price">Prezzo:</label>
+                                <input type="number" id="gone-price" min="1" value="1">
+                            </div>
+                            <div class="form-group">
+                                <label for="gone-owner">Proprietario:</label>
+                                <input type="text" id="gone-owner" placeholder="Es. Marco">
+                            </div>
+                            <button id="gone-btn" class="btn primary">Segnala</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab: Cerca Giocatori -->
+            <section id="search" class="tab-content">
+                <div class="card">
+                    <h2>Cerca Giocatori</h2>
+                    <div class="search-container">
+                        <div class="search-filters">
+                            <div class="form-group">
+                                <label for="player-name-search">Nome Giocatore:</label>
+                                <input type="text" id="player-name-search" placeholder="Es. Lautaro">
+                            </div>
+                            <div class="form-group">
+                                <label for="team-search">Squadra:</label>
+                                <input type="text" id="team-search" placeholder="Es. Inter">
+                            </div>
+                            <div class="form-group">
+                                <label for="role-search">Ruolo:</label>
+                                <select id="role-search">
+                                    <option value="">Tutti</option>
+                                    <option value="p">Portieri</option>
+                                    <option value="d">Difensori</option>
+                                    <option value="c">Centrocampisti</option>
+                                    <option value="a">Attaccanti</option>
+                                </select>
+                            </div>
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-container">
+                                    <input type="checkbox" id="available-only-search">
+                                    <span class="checkmark"></span>
+                                    Solo disponibili
+                                </label>
+                            </div>
+                        </div>
+                        <div class="search-buttons">
+                            <button id="search-btn" class="btn primary"><i class="fas fa-search"></i> Cerca</button>
+                            <button id="reset-search-btn" class="btn secondary"><i class="fas fa-undo"></i> Reset</button>
+                        </div>
+                        
+                        <div class="search-results-container">
+                            <h3>Risultati</h3>
+                            <div id="search-results" class="search-results">
+                                <!-- Risultati della ricerca saranno aggiunti qui -->
+                                <div class="empty-results">Inserisci i criteri di ricerca e premi Cerca</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Tab: Lista Ruoli -->
+            <section id="list" class="tab-content">
+                <div class="card">
+                    <h2>Lista per Ruolo</h2>
+                    <div class="form-group">
+                        <label for="role-select">Ruolo:</label>
+                        <select id="role-select">
+                            <option value="p">Portieri</option>
+                            <option value="d">Difensori</option>
+                            <option value="c">Centrocampisti</option>
+                            <option value="a">Attaccanti</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="list-k">Numero giocatori:</label>
+                        <input type="number" id="list-k" min="1" max="50" value="10">
+                    </div>
+                    <button id="list-btn" class="btn primary">Mostra</button>
+                    
+                    <div id="role-list-results" class="role-list-results">
+                        <!-- Populated by JS -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab: Editor JSON -->
+            <section id="editor" class="tab-content">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Editor JSON</h2>
+                        <div>
+                            <button id="load-json" class="btn secondary"><i class="fas fa-sync-alt"></i> Carica</button>
+                            <button id="save-json" class="btn primary"><i class="fas fa-save"></i> Salva</button>
+                        </div>
+                    </div>
+                    <div class="alert info">
+                        <i class="fas fa-info-circle"></i> Qui puoi modificare direttamente lo stato dell'applicazione in formato JSON.
+                        Fai attenzione a mantenere la struttura corretta per evitare errori.
+                    </div>
+                    <div class="form-group">
+                        <textarea id="json-editor" class="json-editor" spellcheck="false"></textarea>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Tab: Guida -->
+            <section id="guide" class="tab-content">
+                <div class="card">
+                    <h2>Guida all'utilizzo</h2>
+                    
+                    <div class="guide-section">
+                        <h3>🧮 Come funziona l'algoritmo</h3>
+                        <div class="algorithm-box">
+                            <div class="algorithm-formula">
+                                score = zscore(FVMP per ruolo) + bonus UNDER + priorità(P) + peso * MyScore
+                            </div>
+                            <div class="algorithm-explanation">
+                                <p>Ogni giocatore riceve uno <strong>score</strong> calcolato con la formula sopra, dove:</p>
+                                <ul>
+                                    <li><strong>FVMP</strong> → valore ufficiale della lega.</li>
+                                    <li><strong>z-score</strong> → normalizza i FVMP all'interno del ruolo per renderli confrontabili.</li>
+                                    <li><strong>Bonus UNDER</strong> → preferenza per i giovani:
+                                        <ul>
+                                            <li>U21: +0.10</li>
+                                            <li>U23: +0.07</li>
+                                            <li>U25: +0.05</li>
+                                            <li>U28: +0.02</li>
+                                            <li>U30: +0.00</li>
+                                            <li>O30: -0.02</li>
+                                        </ul>
+                                    </li>
+                                    <li><strong>Priorità (P)</strong> → 1 = target massimo (valore negativo che aumenta lo score).</li>
+                                    <li><strong>MyScore (S)</strong> → voto personale (es. 1–10), pesato con il parametro <code>myScoreWeight</code>.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="guide-section">
+                        <h3>📊 Indicatore di bilanciamento</h3>
+                        <p>L'indicatore di bilanciamento (0-100%) misura quanto la tua squadra è equilibrata:</p>
+                        <ul>
+                            <li><strong>-10%</strong> per ogni ruolo in cui sfori il cap di budget</li>
+                            <li><strong>-5%</strong> per ogni ruolo in cui spendi troppo poco (&lt;30% del cap)</li>
+                        </ul>
+                        <div class="balance-interpretation">
+                            <div class="balance-level good">
+                                <span class="level-label">80–100%</span>
+                                <span class="level-icon">✅</span>
+                                <span class="level-desc">Squadra ben bilanciata</span>
+                            </div>
+                            <div class="balance-level medium">
+                                <span class="level-label">60–79%</span>
+                                <span class="level-icon">⚠️</span>
+                                <span class="level-desc">Discreta ma rischiosa</span>
+                            </div>
+                            <div class="balance-level bad">
+                                <span class="level-label">&lt;60%</span>
+                                <span class="level-icon">❌</span>
+                                <span class="level-desc">Squilibrata</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="guide-section">
+                        <h3>🚀 Flusso di utilizzo</h3>
+                        <div class="workflow-steps">
+                            <div class="workflow-step">
+                                <div class="step-number">1</div>
+                                <div class="step-content">
+                                    <h4>Inizializzazione</h4>
+                                    <p>Carica il file CSV dei giocatori e configura i parametri di base:</p>
+                                    <ul>
+                                        <li>Budget totale</li>
+                                        <li>Numero di suggerimenti</li>
+                                        <li>Peso dello score personale</li>
+                                        <li>Target per ogni ruolo</li>
+                                        <li>Budget cap (in % o valore assoluto)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="workflow-step">
+                                <div class="step-number">2</div>
+                                <div class="step-content">
+                                    <h4>Suggerimenti</h4>
+                                    <p>Visualizza i migliori giocatori per ogni ruolo:</p>
+                                    <ul>
+                                        <li><strong>Standard</strong>: migliori per score</li>
+                                        <li><strong>Ottimizzati</strong>: entro budget residuo e cap % ruolo</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="workflow-step">
+                                <div class="step-number">3</div>
+                                <div class="step-content">
+                                    <h4>Acquisti</h4>
+                                    <p>Registra i tuoi acquisti e quelli degli avversari:</p>
+                                    <ul>
+                                        <li>Usa i pulsanti "Acquista" per registrare i tuoi acquisti</li>
+                                        <li>Usa i pulsanti "Segnala" per registrare gli acquisti degli avversari</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="workflow-step">
+                                <div class="step-number">4</div>
+                                <div class="step-content">
+                                    <h4>Stato</h4>
+                                    <p>Controlla lo stato attuale dell'asta:</p>
+                                    <ul>
+                                        <li>Budget residuo e bilanciamento</li>
+                                        <li>Rosa attuale</li>
+                                        <li>Giocatori non disponibili</li>
+                                        <li>Tracker avversari</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="guide-section">
+                        <h3>📑 Struttura CSV</h3>
+                        <p>Il file CSV deve contenere le seguenti colonne:</p>
+                        <div class="csv-structure">
+                            <code>#,Nome,Sq.,Under,R.,FM,FVMP,P,S</code>
+                            <ul>
+                                <li><code>#</code> - id</li>
+                                <li><code>Nome</code> - nome del giocatore</li>
+                                <li><code>Sq.</code> - squadra</li>
+                                <li><code>Under</code> - fascia età (U21, U23, U25, U28, U30, O30)</li>
+                                <li><code>R.</code> - ruolo (p, d, c, a)</li>
+                                <li><code>FM</code> - valore informativo (non usato)</li>
+                                <li><code>FVMP</code> - valore lega</li>
+                                <li><code>P</code> - priorità (opzionale)</li>
+                                <li><code>S</code> - punteggio personale (opzionale)</li>
+                            </ul>
+                        </div>
+                        <div class="csv-example">
+                            <p>Esempio:</p>
+                            <pre>#,Nome,Sq.,Under,R.,FM,FVMP,P,S
+1,Maignan,MIL,U30,p,30,32,1,8
+2,Sommer,INT,U30,p,28,29,2,7
+3,Osimhen,NAP,U25,a,60,65,1,10
+4,Lautaro,INT,U25,a,55,58,2,9</pre>
+                        </div>
+                    </div>
+                    
+                    <div class="guide-section">
+                        <h3>💰 Gestione del budget per ruolo</h3>
+                        <p>Il sistema gestisce automaticamente il budget disponibile per ogni ruolo:</p>
+                        <ul>
+                            <li>Ogni ruolo ha un cap di budget basato sulla percentuale configurata</li>
+                            <li>Quando acquisti un giocatore, il budget disponibile per quel ruolo diminuisce</li>
+                            <li>Se sfori il cap di un ruolo, l'eccesso viene redistribuito tra i ruoli con 0 giocatori acquistati</li>
+                            <li>I ruoli che hanno subito una ridistribuzione del budget sono contrassegnati con un asterisco (*)</li>
+                            <li>Passa il mouse sull'asterisco per vedere il motivo della riduzione</li>
+                        </ul>
+                        <p>Questa funzionalità ti aiuta a:</p>
+                        <ul>
+                            <li>Evitare di spendere troppo in un ruolo a discapito degli altri</li>
+                            <li>Gestire meglio il budget residuo quando hai già sforato in alcuni ruoli</li>
+                            <li>Avere suggerimenti più realistici basati sul budget effettivamente disponibile</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="guide-section">
+                        <h3>⚙️ Suggerimenti avanzati</h3>
+                        <ul>
+                            <li>Usa l'editor JSON per correggere errori o fare modifiche manuali</li>
+                            <li>Aggiorna i suggerimenti dopo ogni acquisto per avere consigli aggiornati</li>
+                            <li>Monitora il bilanciamento della squadra per evitare squilibri</li>
+                            <li>Tieni traccia degli avversari per anticipare le loro mosse</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <div id="notification" class="notification hidden"></div>
+        
+        <!-- Modal per acquisto giocatore dalla pagina di ricerca -->
+        <div id="search-buy-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Acquista Giocatore</h3>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="search-buy-player">Nome:</label>
+                        <input type="text" id="search-buy-player" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="search-buy-price">Prezzo:</label>
+                        <input type="number" id="search-buy-price" min="1" value="1">
+                    </div>
+                    <input type="hidden" id="search-buy-role">
+                    <button id="search-buy-confirm" class="btn primary">Conferma Acquisto</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal per segnalazione giocatore dalla pagina di ricerca -->
+        <div id="search-gone-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Segnala Acquisto</h3>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="search-gone-player">Nome:</label>
+                        <input type="text" id="search-gone-player" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="search-gone-price">Prezzo:</label>
+                        <input type="number" id="search-gone-price" min="1" value="1">
+                    </div>
+                    <div class="form-group">
+                        <label for="search-gone-owner">Proprietario:</label>
+                        <input type="text" id="search-gone-owner" placeholder="Es. Marco">
+                    </div>
+                    <button id="search-gone-confirm" class="btn primary">Conferma Segnalazione</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
